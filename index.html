@@ -1,75 +1,57 @@
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
     <title>Ibon Konesa</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/aos.min.css">
-    <link rel="stylesheet" href="css/hamburgers/hamburgers.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-    <link rel="stylesheet" href="css/animsition.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" type="image/png" href="images/github.png" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css"/>
+    </noscript>
+</head>
+<body class="is-preload">
+<div id="wrapper">
+    <div id="bg"></div>
+    <div id="overlay"></div>
+    <div id="main">
 
-
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-
-  <div class="js-animsition animsition" data-animsition-in-class="fade-in" data-animsition-out-class="fade-out">
-
-    <header class="templateux-navbar" data-aos="fade-down">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-3 col-3"><div class="site-logo"><a >Hi, my name is Ibon</a></div></div>
-
-        </div>
-      </div>
-    </header>
-
-    <!-- END templateux-navbar -->
-    <section class="templateux-hero">
-      <div class="container">
-        <div class="row align-items-center justify-content-center intro">
-          <div class="col-md-10" data-aos="fade-up">            
-            <br><br>  
-            <h3 class="red" >What I do?</h3>
-            <h2>I develop reliable, secure and beautiful web applications keeping in mind the latest standars, trying to write clean, testable and understable code.  </h1>
-            <br>  
+        <!-- Header -->
+        <header id="header" style="font-weight: bold;">
+            <h1>Ibon Konesa</h1>
+            <h3 class="red">What I do?</h3>
+            <h2>I develop reliable, secure and beautiful web applications keeping in mind the latest standars, trying to
+                write clean, testable and understable code. </h2>
+            <br>
             <h3 class="red">Technologies I'm comfortable with:</h3>
             <h2>Backend: PHP [Symfony, Laravel], Javascript [nodeJS]</h2>
             <h2>Frontend: Javascript [Vue, Angular, Ionic]</h2>
             <h2>Databases: MySQL, Firebase, MongoDB, SQL Server</h2>
             <h2>Devops: CI, CD, Docker, Kubernetes</h2>
-          </div>
-        </div>
-      </div>
-    </section>
+            <nav>
+                <ul>
+                    <li><a href="https://twitter.com/ibonconesa" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="https://github.com/ibonkonesa" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                </ul>
+            </nav>
+        </header>
 
-
-
-    <footer class="templateux-footer">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-6 text-md-left text-center">
-            <p>
-            This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
-          </p>
-          </div>
-          <div class="col-md-6 text-md-right text-center footer-social">
-            <a href="https://twitter.com/ibonconesa" class="p-3"><span class="icon-twitter"></span></a>
-            <a href="https://github.com/ibonkonesa" class="p-3"><span class="icon-github"></span></a>
-            <a href="https://www.linkedin.com/in/ibon-conesa-a4577071/" class="p-3"><span class="icon-linkedin"></span></a>
-
-          </div>
-        </div>
-      </div>
-    </footer>
-  </div>
-
-  <script src="js/scripts-all.js"></script>
-  <script src="js/main.js"></script>
-
-  </body>
+    </div>
+</div>
+<script>
+    window.onload = function () {
+        document.body.classList.remove('is-preload');
+    }
+    window.ontouchmove = function () {
+        return false;
+    }
+    window.onorientationchange = function () {
+        document.body.scrollTop = 0;
+    }
+</script>
+</body>
 </html>
