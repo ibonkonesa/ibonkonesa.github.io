@@ -553,6 +553,9 @@ a:hover {
     top: -1em;
     vertical-align: middle;
     width: 90%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2em;
+    font-weight: bold;
 }
 
 #header h1 {
@@ -568,13 +571,10 @@ a:hover {
     font-weight: 900;
     letter-spacing: -0.035em;
     line-height: 1em;
+    margin-bottom: 0.3em;
 
 }
 
-#header span {
-    background-color: black;
-
-}
 
 #header nav {
     margin: 1.5em 0 0 0;
