@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d2d5d1b7-d162-4eee-8e6a-cfba82997bab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,65 @@
     <commands />
     <urls />
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.4352303981240713" />
+      <entry key="MS500" value="3.896420857722303" />
+      <entry key="S2" value="10.96249426021598" />
+      <entry key="S5" value="20.820509368399566" />
+      <entry key="S10" value="27.967457991657927" />
+      <entry key="S30" value="41.15411964839216" />
+      <entry key="S60" value="63.68502352338925" />
+      <entry key="M2" value="109.90119040364938" />
+      <entry key="M5" value="209.34570177400118" />
+      <entry key="M10" value="283.0803689574927" />
+      <entry key="M15" value="316.45683094797704" />
+      <entry key="M30" value="355.70765807283226" />
+      <entry key="H1" value="377.891669270992" />
+      <entry key="H2" value="389.6941704764246" />
+      <entry key="H4" value="395.7827196629558" />
+      <entry key="D1" value="400.95472106574215" />
+      <entry key="W1" value="401.8504507635897" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.373530001779971" />
+      <entry key="MS500" value="3.8695388778263515" />
+      <entry key="S2" value="10.945326883466059" />
+      <entry key="S5" value="20.80776908115254" />
+      <entry key="S10" value="27.958957697402074" />
+      <entry key="S30" value="41.14989104289403" />
+      <entry key="S60" value="63.68066945850948" />
+      <entry key="M2" value="109.89501910730431" />
+      <entry key="M5" value="209.33960017221125" />
+      <entry key="M10" value="283.07608232433864" />
+      <entry key="M15" value="316.45361777815907" />
+      <entry key="M30" value="355.7058482864984" />
+      <entry key="H1" value="377.8907081862401" />
+      <entry key="H2" value="389.6936751527495" />
+      <entry key="H4" value="395.78246821011686" />
+      <entry key="D1" value="400.95467862209364" />
+      <entry key="W1" value="401.8504446870026" />
+    </decayedShown>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.5.10/bin/php" />
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4,
@@ -38,6 +99,7 @@
   "keyToString": {
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
@@ -54,18 +116,6 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ibonkonesa.github.io/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -96,7 +146,7 @@
       <updated>1571451112759</updated>
       <workItem from="1571451114812" duration="41000" />
       <workItem from="1571452306460" duration="1934000" />
-      <workItem from="1790357867394" duration="317000" />
+      <workItem from="1790357867394" duration="652000" />
     </task>
     <servers />
   </component>
