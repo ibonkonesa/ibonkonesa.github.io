@@ -1,62 +1,40 @@
-<!DOCTYPE HTML>
-<html>
+<!doctype html>
+<html lang="es">
 <head>
-    <title>Ibon Konesa</title>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-    <link rel="stylesheet" href="assets/css/main.css"/>
-    <noscript>
-        <link rel="stylesheet" href="assets/css/noscript.css"/>
-    </noscript>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ibon Conesa — CTO en Zapp-Studio</title>
+    <meta name="description" content="Ibon Conesa, CTO en Zapp-Studio.">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="favicon.ico" sizes="16x16 32x32">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" sizes="any">
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body class="is-preload">
-<div id="wrapper">
-    <div id="bg"></div>
-    <div id="overlay"></div>
-    <div id="main">
-
-        <!-- Header -->
-        <header id="header">
-            <h1>Ibon Konesa</h1>
-            <br>
-            <h2>What do I do?</h2>
-            <span>I develop reliable, secure and beautiful web applications keeping in mind the latest standars, trying to
-                write clean, testable and understandable code. </span>
-            <br><br>
-            <h2 class="red">Technologies I usually use:</h2>
-            <span>Backend: PHP [Symfony, Laravel], Javascript [nodeJS]</span>
-            <br>
-            <span>Frontend: Javascript [Vue, Angular, Ionic]</span><br>
-            <span>Databases: MySQL, Firebase, MongoDB, SQL Server</span><br>
-            <span>DevOps: CI, CD, Docker, Kubernetes, Bash</span><br>
-            <br><br>
-            <h2 class="red">What I'm doing</h2>
-            <span>I'm happily leading web development team at <a
-                href="https://zapp-studio.com">Zapp-Studio</a>.   If you're looking for adventure, get in touch with me.
-
- </span>
-            <nav>
-                <ul>
-                    <li><a href="https://twitter.com/ibonconesa" class="icon brands fa-twitter"><span class="label">Twitter</span></a>
-                    </li>
-                    <li><a href="https://github.com/ibonkonesa" class="icon brands fa-github"><span
-                            class="label">Github</span></a></li>
-                </ul>
-            </nav>
+<body>
+    <div class="page">
+        <header class="masthead">
+            <a class="wordmark" href="/" aria-label="Ibon Conesa, inicio">ic<span aria-hidden="true">.</span></a>
         </header>
 
+        <main id="main" class="intro">
+            <div class="name-block">
+                <p class="eyebrow">Hola, soy</p>
+                <h1><span>Ibon</span> <span class="surname">Conesa<span class="full-stop">.</span></span></h1>
+            </div>
+
+            <section class="about" aria-labelledby="about-title">
+                <h2 id="about-title" class="eyebrow">Actualmente</h2>
+                <p class="role">CTO en<br><a href="https://zapp-studio.com">Zapp-Studio<span class="arrow" aria-hidden="true">↗</span></a></p>
+                <p class="description">Combino el desarrollo de software con la dirección técnica de proyectos y equipos.</p>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <nav aria-label="Perfiles sociales">
+                <a href="https://github.com/ibonkonesa">GitHub <span aria-hidden="true">↗</span></a>
+                <a href="https://twitter.com/ibonconesa">X / Twitter <span aria-hidden="true">↗</span></a>
+            </nav>
+        </footer>
     </div>
-</div>
-<script>
-    window.onload = function () {
-        document.body.classList.remove('is-preload');
-    }
-    window.ontouchmove = function () {
-        return false;
-    }
-    window.onorientationchange = function () {
-        document.body.scrollTop = 0;
-    }
-</script>
 </body>
 </html>
